@@ -1,6 +1,6 @@
 <template>
   <p v-if="$fetchState.pending">Fetching users...</p>
-  <p v-else-if="$fetchState.error">An error occurred :(</p>
+  <p v-else-if="$fetchState.error">We're sorry! An error occurred :(</p>
   <div v-else class="text-center my-5">
     <h1 class="font-light text-4xl py-5">What do users have to say about us</h1>
     <div class="mb-20">
