@@ -7,17 +7,7 @@
       <div
         v-for="user of users"
         :key="user.login.uuid"
-        class="
-          bg-gray-100
-          p-5
-          w-2/4
-          mx-auto
-          my-5
-          flex
-          items-center
-          justify-around
-          rounded-md
-        "
+        class="bg-gray-100 p-5 w-2/4 mx-auto my-5 flex items-center justify-around rounded-md"
       >
         <div class="px-3">
           <img class="rounded-full" :src="user.picture.large" />
@@ -50,5 +40,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

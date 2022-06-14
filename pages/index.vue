@@ -7,16 +7,7 @@
     <h3 class="pb-10 text-xl">Learn more about our philosophy and culture</h3>
     <NuxtLink
       to="/about"
-      class="
-        bg-blue-500
-        hover:bg-blue-700
-        text-white
-        font-bold
-        py-2
-        px-4
-        rounded
-        transition
-      "
+      class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition"
     >
       Learn More
     </NuxtLink>

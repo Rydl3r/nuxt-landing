@@ -5,12 +5,7 @@
         <button
           @click="isOpen = !isOpen"
           type="button"
-          class="
-            block
-            text-gray-500
-            hover:text-white
-            focus:text-white focus:outline-none
-          "
+          class="block text-gray-500 hover:text-white focus:text-white focus:outline-none"
         >
           <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
             <path
@@ -34,67 +29,27 @@
       <NuxtLink
         exact
         to="/"
-        class="
-          block
-          px-4
-          py-2
-          text-white
-          font-semibold
-          rounded
-          hover:bg-gray-800
-        "
+        class="block px-4 py-2 text-white font-semibold rounded hover:bg-gray-800"
         >Home</NuxtLink
       >
       <NuxtLink
         to="/about"
-        class="
-          block
-          px-4
-          py-2
-          text-white
-          font-semibold
-          rounded
-          hover:bg-gray-800
-        "
+        class="block px-4 py-2 text-white font-semibold rounded hover:bg-gray-800"
         >About</NuxtLink
       >
       <NuxtLink
         to="/services"
-        class="
-          block
-          px-4
-          py-2
-          text-white
-          font-semibold
-          rounded
-          hover:bg-gray-800
-        "
+        class="block px-4 py-2 text-white font-semibold rounded hover:bg-gray-800"
         >Services</NuxtLink
       >
       <NuxtLink
         to="/reviews"
-        class="
-          block
-          px-4
-          py-2
-          text-white
-          font-semibold
-          rounded
-          hover:bg-gray-800
-        "
+        class="block px-4 py-2 text-white font-semibold rounded hover:bg-gray-800"
         >Reviews</NuxtLink
       >
       <NuxtLink
         to="/contacts"
-        class="
-          block
-          px-4
-          py-2
-          text-white
-          font-semibold
-          rounded
-          hover:bg-gray-800
-        "
+        class="block px-4 py-2 text-white font-semibold rounded hover:bg-gray-800"
         >Contacts</NuxtLink
       >
     </nav>
